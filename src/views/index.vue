@@ -1,6 +1,9 @@
 <!-- 登陆之后的主页面 -->
 <template>
-  <div class="main">这是一个首页</div>
+  <div class="index">
+    HelloWorld!
+    <br />这是一个首页
+  </div>
 </template>
 
 <script>
@@ -18,3 +21,13 @@ export default {
   methods: {}
 };
 </script>
+<style scoped>
+.index {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue;
+  font-size: 60px;
+}
+</style>
+
