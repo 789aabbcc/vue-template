@@ -4,7 +4,7 @@ import router from "./router";
 import store from "./store";
 
 Vue.config.productionTip = false;
-
+啊蛋
 new Vue({
   router,
   store,
